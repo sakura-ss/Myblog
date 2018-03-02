@@ -8,3 +8,4 @@ class CreateMessages < ActiveRecord::Migration[5.1]
     end
   end
 end
+rails g scaffold Message title:string message:string
